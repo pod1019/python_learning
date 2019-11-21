@@ -12,7 +12,7 @@ a = 'abcdefghijklmnopqrstuvwxyz'
 print(a[5:9])
 print(a[26-1])
 b = a.replace('c','测试')
-# c111 = a.index(a)
+c111 = a.index(a)
 
 print('c111:',c111)
 

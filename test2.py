@@ -8,4 +8,3 @@ def fib(n):
 print(fib(10))
 
 d = {'name':'xiaohei','age':'20'}
-d.
