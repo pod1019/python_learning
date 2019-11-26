@@ -2,27 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c9a5f6-c092-4f25-9675-834f06d89e4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/lambda表达式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/参数类型.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/可变参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/强制命名参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/递归函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第6章2OOP进阶/单例模式测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第6章2OOP进阶/工厂和单例整合使用测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第6章2OOP进阶/工厂模式测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第8章文件操作/file01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第8章文件操作/二进制文件拷贝.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库编程/01操作sqlite3创建表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库编程/02操作sqlite3数据库插入一条数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库编程/03操作sqlite3数据库插入多条数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库编程/04操作sqlite3数据库查询多条数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库编程/05操作sqlite3数据库查询一条数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库编程/06操作sqlite3数据库修改数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库编程/07操作sqlite3数据库删除数据.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/函数返回值.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/函数返回值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/形参和实参.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/形参和实参.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/测试文档字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/测试文档字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/返回值.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/返回值.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,17 +49,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/第5章函数用法和底层分析" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/数据库编程" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\mypy\第5章函数用法和底层分析" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\mypy" />
       <recent name="E:\mypy\第5章函数用法和底层分析\函数的定义及调用" />
       <recent name="E:\mypy\第5章函数用法和底层分析\参数的传递及类型" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python_learning\数据库编程" />
+      <recent name="E:\mypy\第5章函数用法和底层分析" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,8 +75,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.二进制文件拷贝">
-    <configuration name="二进制文件拷贝" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.04操作sqlite3数据库查询多条数据">
+    <configuration name="03操作sqlite3数据库插入多条数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mypy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章文件操作" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据库编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章文件操作/二进制文件拷贝.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据库编程/03操作sqlite3数据库插入多条数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04操作sqlite3数据库查询多条数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mypy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,12 +106,78 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第6章2OOP进阶" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据库编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第6章2OOP进阶/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据库编程/04操作sqlite3数据库查询多条数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05操作sqlite3数据库查询一条数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据库编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据库编程/05操作sqlite3数据库查询一条数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06操作sqlite3数据库修改数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据库编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据库编程/06操作sqlite3数据库修改数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07操作sqlite3数据库删除数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据库编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据库编程/07操作sqlite3数据库删除数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,35 +274,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mypy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章文件操作" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章文件操作/file01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.二进制文件拷贝" />
-        <item itemvalue="Python.file01" />
-        <item itemvalue="Python.工厂和单例整合使用测试" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.工厂模式测试" />
+        <item itemvalue="Python.04操作sqlite3数据库查询多条数据" />
+        <item itemvalue="Python.07操作sqlite3数据库删除数据" />
+        <item itemvalue="Python.06操作sqlite3数据库修改数据" />
+        <item itemvalue="Python.05操作sqlite3数据库查询一条数据" />
+        <item itemvalue="Python.03操作sqlite3数据库插入多条数据" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +296,7 @@
       <updated>1574320656177</updated>
       <workItem from="1574320658576" duration="13442000" />
       <workItem from="1574649174075" duration="7749000" />
+      <workItem from="1574774404914" duration="6223000" />
     </task>
     <task id="LOCAL-00001" summary="python基础">
       <created>1574320888173</created>
@@ -269,7 +323,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -280,15 +336,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="python基础" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mypy$.coverage" NAME="二进制文件拷贝 Coverage Results" MODIFIED="1574667169533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
-    <SUITE FILE_PATH="coverage/mypy$1.coverage" NAME="1 Coverage Results" MODIFIED="1574660091801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章2OOP进阶" />
-    <SUITE FILE_PATH="coverage/mypy$file01.coverage" NAME="file01 Coverage Results" MODIFIED="1574664976794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
-    <SUITE FILE_PATH="coverage/mypy$lambda.coverage" NAME="lambda表达式 Coverage Results" MODIFIED="1574393915823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析" />
-    <SUITE FILE_PATH="coverage/mypy$person.coverage" NAME="person Coverage Results" MODIFIED="1574321453670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
-    <SUITE FILE_PATH="coverage/mypy$__1_.coverage" NAME="可变参数 (1) Coverage Results" MODIFIED="1574391646664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型" />
-    <SUITE FILE_PATH="coverage/mypy$if_test2.coverage" NAME="if_test2 Coverage Results" MODIFIED="1574321104324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$testJson.coverage" NAME="testJson Coverage Results" MODIFIED="1574321294566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypy$random.coverage" NAME="random模块 Coverage Results" MODIFIED="1574321270399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_learning$07sqlite3.coverage" NAME="07操作sqlite3数据库删除数据 Coverage Results" MODIFIED="1574781466207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
+    <SUITE FILE_PATH="coverage/python_learning$03sqlite3.coverage" NAME="03操作sqlite3数据库插入多条数据 Coverage Results" MODIFIED="1574779855373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
+    <SUITE FILE_PATH="coverage/python_learning$06sqlite3.coverage" NAME="06操作sqlite3数据库修改数据 Coverage Results" MODIFIED="1574781150366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
+    <SUITE FILE_PATH="coverage/mypy$if_test2.coverage" NAME="if_test2 Coverage Results" MODIFIED="1574321104324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypy$file01.coverage" NAME="file01 Coverage Results" MODIFIED="1574664976794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
+    <SUITE FILE_PATH="coverage/mypy$__1_.coverage" NAME="可变参数 (1) Coverage Results" MODIFIED="1574391646664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型" />
+    <SUITE FILE_PATH="coverage/mypy$person.coverage" NAME="person Coverage Results" MODIFIED="1574321453670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/mypy$testJson.coverage" NAME="testJson Coverage Results" MODIFIED="1574321294566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_learning$3.coverage" NAME="异常3 Coverage Results" MODIFIED="1574774470189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/python_learning$05sqlite3.coverage" NAME="05操作sqlite3数据库查询一条数据 Coverage Results" MODIFIED="1574780253573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
+    <SUITE FILE_PATH="coverage/mypy$1.coverage" NAME="1 Coverage Results" MODIFIED="1574660091801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章2OOP进阶" />
+    <SUITE FILE_PATH="coverage/python_learning$02sqlite3.coverage" NAME="02操作sqlite3数据库插入一条数据 Coverage Results" MODIFIED="1574778300394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
     <SUITE FILE_PATH="coverage/mypy$greeter.coverage" NAME="greeter Coverage Results" MODIFIED="1574323390083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数_function/实参" />
+    <SUITE FILE_PATH="coverage/mypy$.coverage" NAME="二进制文件拷贝 Coverage Results" MODIFIED="1574667169533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
+    <SUITE FILE_PATH="coverage/mypy$lambda.coverage" NAME="lambda表达式 Coverage Results" MODIFIED="1574393915823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析" />
+    <SUITE FILE_PATH="coverage/python_learning$04sqlite3.coverage" NAME="04操作sqlite3数据库查询多条数据 Coverage Results" MODIFIED="1574781469530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
+    <SUITE FILE_PATH="coverage/python_learning$01sqlite3.coverage" NAME="01操作sqlite3创建表 Coverage Results" MODIFIED="1574776894205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
   </component>
 </project>
