@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c9a5f6-c092-4f25-9675-834f06d89e4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第9章 异常/aa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第9章 异常/异常3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第9章 异常/异常4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第9章 异常/异常5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第9章 异常/异常6finally中保证关闭文件资源.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第9章 异常/异常7测试with上下文管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第9章 异常/异常8 把异常信息输出到文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第9章 异常/异常9 自定义异常及raise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/lambda表达式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/参数类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/可变参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/强制命名参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/递归函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第6章2OOP进阶/单例模式测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第6章2OOP进阶/工厂和单例整合使用测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第6章2OOP进阶/工厂模式测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章文件操作/file01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章文件操作/二进制文件拷贝.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/继承.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/lambda表达式.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/lambda表达式.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/函数返回值.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/函数的定义及调用/函数返回值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/形参和实参.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/函数的定义及调用/形参和实参.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/测试文档字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/函数的定义及调用/测试文档字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/返回值.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/函数的定义及调用/返回值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/参数类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/参数的传递及类型/参数类型.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/可变参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/参数的传递及类型/可变参数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型/强制命名参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/参数的传递及类型/强制命名参数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/递归函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章 函数用法和底层分析/递归函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第6章2OOP进阶/单例模式测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/第6章2 OOP进阶/单例模式测试.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第6章2OOP进阶/工厂和单例整合使用测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/第6章2 OOP进阶/工厂和单例整合使用测试.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第6章2OOP进阶/工厂模式测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/第6章2 OOP进阶/工厂模式测试.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第8章文件操作/Penguins.copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/第8章 文件操作/Penguins.copy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第8章文件操作/Penguins.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/第8章 文件操作/Penguins.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第8章文件操作/bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/第8章 文件操作/bb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第8章文件操作/file01.py" beforeDir="false" afterPath="$PROJECT_DIR$/第8章 文件操作/file01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第8章文件操作/二进制文件拷贝.py" beforeDir="false" afterPath="$PROJECT_DIR$/第8章 文件操作/二进制文件拷贝.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/函数返回值.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/函数返回值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/形参和实参.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/形参和实参.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/测试文档字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/测试文档字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第5章函数用法和底层分析/返回值.py" beforeDir="false" afterPath="$PROJECT_DIR$/第5章函数用法和底层分析/函数的定义及调用/返回值.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +66,95 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.异常9 自定义异常及raise">
+  <component name="RunManager" selected="Python.二进制文件拷贝">
+    <configuration name="二进制文件拷贝" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章文件操作" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章文件操作/二进制文件拷贝.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第6章2OOP进阶" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第6章2OOP进阶/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="工厂模式测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第6章2OOP进阶" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第6章2OOP进阶/工厂模式测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="工厂和单例整合使用测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第6章2OOP进阶" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第6章2OOP进阶/工厂和单例整合使用测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="可变参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mypy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,116 +169,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\mypy\第5章函数用法和底层分析\参数的传递及类型\可变参数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异常3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mypy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第9章 异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第9章 异常/异常3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异常6finally中保证关闭文件资源" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mypy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第9章 异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第9章 异常/异常6finally中保证关闭文件资源.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异常7测试with上下文管理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mypy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第9章 异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第9章 异常/异常7测试with上下文管理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异常8 把异常信息输出到文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mypy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第9章 异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第9章 异常/异常8 把异常信息输出到文件.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异常9 自定义异常及raise" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mypy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第9章 异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第9章 异常/异常9 自定义异常及raise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,13 +199,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="file01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章文件操作" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章文件操作/file01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.异常9 自定义异常及raise" />
-        <item itemvalue="Python.异常8 把异常信息输出到文件" />
-        <item itemvalue="Python.异常7测试with上下文管理" />
-        <item itemvalue="Python.异常6finally中保证关闭文件资源" />
-        <item itemvalue="Python.异常3" />
+        <item itemvalue="Python.二进制文件拷贝" />
+        <item itemvalue="Python.file01" />
+        <item itemvalue="Python.工厂和单例整合使用测试" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.工厂模式测试" />
       </list>
     </recent_temporary>
   </component>
@@ -254,8 +242,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574320656177</updated>
       <workItem from="1574320658576" duration="13442000" />
-      <workItem from="1574649174075" duration="17713000" />
-      <workItem from="1574753948623" duration="2044000" />
+      <workItem from="1574649174075" duration="7749000" />
     </task>
     <task id="LOCAL-00001" summary="python基础">
       <created>1574320888173</created>
@@ -271,21 +258,7 @@
       <option name="project" value="LOCAL" />
       <updated>1574332307983</updated>
     </task>
-    <task id="LOCAL-00003" summary="python基础20191125">
-      <created>1574674481183</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1574674481183</updated>
-    </task>
-    <task id="LOCAL-00004" summary="python基础20191125">
-      <created>1574674534663</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1574674534663</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,9 +269,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -306,26 +277,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python基础" />
-    <MESSAGE value="python基础20191125" />
-    <option name="LAST_COMMIT_MESSAGE" value="python基础20191125" />
+    <option name="LAST_COMMIT_MESSAGE" value="python基础" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mypy$3.coverage" NAME="异常3 Coverage Results" MODIFIED="1574747411174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$8_.coverage" NAME="异常8 把异常信息输出到文件 Coverage Results" MODIFIED="1574750222757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/mypy$.coverage" NAME="二进制文件拷贝 Coverage Results" MODIFIED="1574667169533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
+    <SUITE FILE_PATH="coverage/mypy$1.coverage" NAME="1 Coverage Results" MODIFIED="1574660091801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章2OOP进阶" />
+    <SUITE FILE_PATH="coverage/mypy$file01.coverage" NAME="file01 Coverage Results" MODIFIED="1574664976794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
     <SUITE FILE_PATH="coverage/mypy$lambda.coverage" NAME="lambda表达式 Coverage Results" MODIFIED="1574393915823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析" />
     <SUITE FILE_PATH="coverage/mypy$person.coverage" NAME="person Coverage Results" MODIFIED="1574321453670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/mypy$__1_.coverage" NAME="可变参数 (1) Coverage Results" MODIFIED="1574391646664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型" />
     <SUITE FILE_PATH="coverage/mypy$if_test2.coverage" NAME="if_test2 Coverage Results" MODIFIED="1574321104324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$greeter.coverage" NAME="greeter Coverage Results" MODIFIED="1574323390083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数_function/实参" />
-    <SUITE FILE_PATH="coverage/mypy$my05.coverage" NAME="my05 Coverage Results" MODIFIED="1574737948170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$9_raise.coverage" NAME="异常9 自定义异常及raise Coverage Results" MODIFIED="1574753809229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$.coverage" NAME="继承 Coverage Results" MODIFIED="1574733934694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
-    <SUITE FILE_PATH="coverage/mypy$1.coverage" NAME="1 Coverage Results" MODIFIED="1574660091801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章2OOP进阶" />
-    <SUITE FILE_PATH="coverage/mypy$6finally.coverage" NAME="异常6finally中保证关闭文件资源 Coverage Results" MODIFIED="1574748465605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$file01.coverage" NAME="file01 Coverage Results" MODIFIED="1574664976794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
     <SUITE FILE_PATH="coverage/mypy$testJson.coverage" NAME="testJson Coverage Results" MODIFIED="1574321294566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypy$random.coverage" NAME="random模块 Coverage Results" MODIFIED="1574321270399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$4.coverage" NAME="异常4 Coverage Results" MODIFIED="1574746920733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$7with.coverage" NAME="异常7测试with上下文管理 Coverage Results" MODIFIED="1574749419257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/mypy$greeter.coverage" NAME="greeter Coverage Results" MODIFIED="1574323390083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数_function/实参" />
   </component>
 </project>
