@@ -16,7 +16,7 @@ try:
     print("插入多条数据成功")
 except Exception as e:
     print(e)
-    con.rollback() #插入不成功，则回滚事务
+    con.rollback() #插入不成功，则回滚事务·地方
     print("插入多条数据失败")
 finally:
     # 关闭游标

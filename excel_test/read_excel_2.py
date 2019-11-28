@@ -4,7 +4,7 @@ import xlrd
 
 '''打开一个workbook，即打开一个Excel文件'''
 
-workbook = xlrd.open_workbook('E:\\www\\abcd.xlsx')
+workbook = xlrd.open_workbook('./abcd.xlsx')
 
 '''抓取所有sheet页的名称'''
 worksheets = workbook.sheet_names()
@@ -40,3 +40,4 @@ for curr_col in range(num_cols):
 
 for rown in range(num_rows):
     for coln in range(num_cols):
+        pass
