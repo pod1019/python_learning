@@ -10,7 +10,7 @@ obj = {
 def send_post(url,data=None):
     res = requests.post(url=url,data=obj)
 # json.dumps(res)
-    return res
+#     return res
     print(res)
 
 send_post(url,obj)
