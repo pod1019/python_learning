@@ -52,11 +52,15 @@ if __name__ =="__main__":
 
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     filename = './report/' + now + '_result.html'
+try:
     fp = open(filename,'wb')
     runner = HTMLTestRunner(stream=fp,
                             title='qiaoba testing Interface Test Report',
                             description='The result are following:')
     runner.run(discover)
+except Exception as e:
+    print(e)
+finally:
     fp.close()
 
     test_report = './report'
