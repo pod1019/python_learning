@@ -1,13 +1,16 @@
 import unittest
 import requests
 import json
+from public import Config
+from public import base
+
 
 class GetNothingTest(unittest.TestCase):
     '''GET无参数测试'''
     def setUp(self):
-        host = 'http://httpbin.org/'
+        host = Config.url()
         endpoint = 'get'
-        self.url = ''.join([host,endpoint])
+        self.url = base.get_url(endpoint)
 
     def test_1(self):
         '''校验状态码是否为200'''

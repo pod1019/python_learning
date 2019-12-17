@@ -1,12 +1,13 @@
 import requests
 import unittest
-
+from public import Config
+from public import base
 class GetParamsHeadersTest(unittest.TestCase):
     '''Get有params和headers测试'''
     def setUp(self):
-        host = 'http://httpbin.org'
+        host = Config.url()
         endpoint = 'get'
-        self.url = ''.join([host,endpoint])
+        self.url = base.get_url(endpoint)
 
     def test_params_headers(self):
         '''验证浏览器是否chrome'''

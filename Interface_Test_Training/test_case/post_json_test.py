@@ -1,11 +1,14 @@
 import unittest
 import requests
 import json
+from public import Config
+from public import base
+
 class PostJsonTest(unittest.TestCase):
     def setUp(self):
-        host = 'http://httpbin.org/'
-        endpoint = 'post'
-        self.url = ''.join([host,endpoint])
+        host = Config.url()
+        endpoint = 'get'
+        self.url = base.get_url(endpoint)
 
     def test_post_json(self):
         data = {

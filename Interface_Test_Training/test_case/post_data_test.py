@@ -1,5 +1,8 @@
 import requests
 import json
+from public import Config
+from public import base
+
 # 第一步导入unittest等模块
 import unittest
 # 第2步：定义测试类必须继承unittest.TestCase类
@@ -7,9 +10,9 @@ class PostDataTest(unittest.TestCase):
     '''Post Data测试'''
 #     主要是环境配置:进行测试前的初始化工作,比如在接口测试前面的一些前置的参数赋值,数据库操作等4
     def setUp(self):
-        host = 'http://httpbin.org/'
-        endpoint = 'post'
-        self.url = ''.join([host,endpoint])
+        host = Config.url()
+        endpoint = 'get'
+        self.url = base.get_url(endpoint)
 
 #     第4步：定义测试用例，名字必须以"test"开头
     def test_post_data_1(self):
