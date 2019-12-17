@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1c9a5f6-c092-4f25-9675-834f06d89e4c" name="Default Changelist" comment="练习题-&gt;pay mock练习">
+    <list default="true" id="c1c9a5f6-c092-4f25-9675-834f06d89e4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Test_Training/public/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Test_Training/public/Config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Test_Training/test_case/post_json_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Test_Training/test_case/post_json_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_tests">
+  <component name="RunManager" selected="Python.json和dict互转">
+    <configuration name="get_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mypy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_requests/get_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="json和dict互转" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mypy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,28 +94,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第3章 序列/my_dict/json和dict互转.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mypy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface_Test_Training" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface_Test_Training/run_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_tests" />
         <item itemvalue="Python.json和dict互转" />
         <item itemvalue="Python tests.Unittests for test_zhifu_statues.Test_zhifu_status" />
         <item itemvalue="Python tests.Unittests for test_zhifu_statues.Test_zhifu_status.test_01" />
         <item itemvalue="Python tests.Unittests in testcase1.py" />
+        <item itemvalue="Python.get_test" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +177,7 @@
       <workItem from="1576130217774" duration="7368000" />
       <workItem from="1576476351946" duration="32000" />
       <workItem from="1576476400365" duration="90000" />
-      <workItem from="1576547688794" duration="1848000" />
+      <workItem from="1576563977195" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="python基础">
       <created>1574320888173</created>
@@ -257,48 +255,36 @@
     <MESSAGE value="练习题-&gt;pay mock练习" />
     <option name="LAST_COMMIT_MESSAGE" value="练习题-&gt;pay mock练习" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mypy$utils.coverage" NAME="utils Coverage Results" MODIFIED="1574849167755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$2048.coverage" NAME="2048 Coverage Results" MODIFIED="1575254990167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习题" />
-    <SUITE FILE_PATH="coverage/mypy$person.coverage" NAME="person Coverage Results" MODIFIED="1574321453670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
-    <SUITE FILE_PATH="coverage/mypy$__1_.coverage" NAME="可变参数 (1) Coverage Results" MODIFIED="1574391646664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型" />
-    <SUITE FILE_PATH="coverage/mypy$Unittests_in_testcase1_py.coverage" NAME="Unittests in testcase1.py Coverage Results" MODIFIED="1575367691501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
-    <SUITE FILE_PATH="coverage/mypy$greeter.coverage" NAME="greeter Coverage Results" MODIFIED="1574323390083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数_function/实参" />
-    <SUITE FILE_PATH="coverage/mypy$Unittests_for_testcase1_TestRun1_test_01.coverage" NAME="Unittests for testcase1.TestRun1.test_01 Coverage Results" MODIFIED="1575344256685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
-    <SUITE FILE_PATH="coverage/mypy$9_raise.coverage" NAME="异常9 自定义异常及raise Coverage Results" MODIFIED="1574753809229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$Unittests_for_test_zhifu_statues_Test_zhifu_status.coverage" NAME="Unittests for test_zhifu_statues.Test_zhifu_status Coverage Results" MODIFIED="1576131683454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习题/pay" />
-    <SUITE FILE_PATH="coverage/mypy$.coverage" NAME="继承 Coverage Results" MODIFIED="1574848776964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
-    <SUITE FILE_PATH="coverage/mypy$get_test.coverage" NAME="get_test Coverage Results" MODIFIED="1575367525053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
-    <SUITE FILE_PATH="coverage/mypy$Unittests_for_test_zhifu_statues_Test_zhifu_status_test_01.coverage" NAME="Unittests for test_zhifu_statues.Test_zhifu_status.test_01 Coverage Results" MODIFIED="1576131658957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习题/pay" />
-    <SUITE FILE_PATH="coverage/mypy$6finally.coverage" NAME="异常6finally中保证关闭文件资源 Coverage Results" MODIFIED="1574748465605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$02sqlite3.coverage" NAME="02操作sqlite3数据库插入一条数据 Coverage Results" MODIFIED="1574819244890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
-    <SUITE FILE_PATH="coverage/mypy$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1576548372681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface_Test_Training" />
-    <SUITE FILE_PATH="coverage/mypy$testJson.coverage" NAME="testJson Coverage Results" MODIFIED="1574321294566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$Unittests_for_testcase1_TestRun1.coverage" NAME="Unittests for testcase1.TestRun1 Coverage Results" MODIFIED="1575343944841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
     <SUITE FILE_PATH="coverage/mypy$random.coverage" NAME="random模块 Coverage Results" MODIFIED="1574321270399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$3.coverage" NAME="异常3 Coverage Results" MODIFIED="1574747411174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$product.coverage" NAME="product Coverage Results" MODIFIED="1574848327841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$8_.coverage" NAME="异常8 把异常信息输出到文件 Coverage Results" MODIFIED="1574750222757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$lambda.coverage" NAME="lambda表达式 Coverage Results" MODIFIED="1574393915823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析" />
-    <SUITE FILE_PATH="coverage/mypy$if_test2.coverage" NAME="if_test2 Coverage Results" MODIFIED="1574321104324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypy$jsondict.coverage" NAME="json和dict互转 Coverage Results" MODIFIED="1576136382831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章 序列/my_dict" />
-    <SUITE FILE_PATH="coverage/mypy$my05.coverage" NAME="my05 Coverage Results" MODIFIED="1574737948170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
-    <SUITE FILE_PATH="coverage/mypy$1.coverage" NAME="1 Coverage Results" MODIFIED="1575340074822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
+    <SUITE FILE_PATH="coverage/mypy$9_raise.coverage" NAME="异常9 自定义异常及raise Coverage Results" MODIFIED="1574753809229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/mypy$Unittests_for_testcase1_TestRun1.coverage" NAME="Unittests for testcase1.TestRun1 Coverage Results" MODIFIED="1575343944841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
+    <SUITE FILE_PATH="coverage/mypy$Unittests_for_test_zhifu_statues_Test_zhifu_status_test_01.coverage" NAME="Unittests for test_zhifu_statues.Test_zhifu_status.test_01 Coverage Results" MODIFIED="1576131658957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习题/pay" />
     <SUITE FILE_PATH="coverage/mypy$file01.coverage" NAME="file01 Coverage Results" MODIFIED="1574664976794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章文件操作" />
+    <SUITE FILE_PATH="coverage/mypy$person.coverage" NAME="person Coverage Results" MODIFIED="1574321453670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/mypy$get_test.coverage" NAME="get_test Coverage Results" MODIFIED="1575367525053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
+    <SUITE FILE_PATH="coverage/mypy$6finally.coverage" NAME="异常6finally中保证关闭文件资源 Coverage Results" MODIFIED="1574748465605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/mypy$testJson.coverage" NAME="testJson Coverage Results" MODIFIED="1574321294566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypy$my05.coverage" NAME="my05 Coverage Results" MODIFIED="1574737948170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/mypy$greeter.coverage" NAME="greeter Coverage Results" MODIFIED="1574323390083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数_function/实参" />
+    <SUITE FILE_PATH="coverage/mypy$02sqlite3.coverage" NAME="02操作sqlite3数据库插入一条数据 Coverage Results" MODIFIED="1574819244890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库编程" />
+    <SUITE FILE_PATH="coverage/mypy$Unittests_for_testcase1_TestRun1_test_01.coverage" NAME="Unittests for testcase1.TestRun1.test_01 Coverage Results" MODIFIED="1575344256685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
+    <SUITE FILE_PATH="coverage/mypy$lambda.coverage" NAME="lambda表达式 Coverage Results" MODIFIED="1574393915823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析" />
+    <SUITE FILE_PATH="coverage/mypy$8_.coverage" NAME="异常8 把异常信息输出到文件 Coverage Results" MODIFIED="1574750222757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
     <SUITE FILE_PATH="coverage/mypy$formatted_name.coverage" NAME="formatted_name Coverage Results" MODIFIED="1574849618001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数_function/返回值" />
-    <SUITE FILE_PATH="coverage/mypy$apidemo.coverage" NAME="apidemo Coverage Results" MODIFIED="1575350730426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
-    <SUITE FILE_PATH="coverage/mypy$4.coverage" NAME="异常4 Coverage Results" MODIFIED="1574746920733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
     <SUITE FILE_PATH="coverage/mypy$7with.coverage" NAME="异常7测试with上下文管理 Coverage Results" MODIFIED="1574749419257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/mypy$3.coverage" NAME="异常3 Coverage Results" MODIFIED="1574747411174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
+    <SUITE FILE_PATH="coverage/mypy$2048.coverage" NAME="2048 Coverage Results" MODIFIED="1575254990167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习题" />
+    <SUITE FILE_PATH="coverage/mypy$if_test2.coverage" NAME="if_test2 Coverage Results" MODIFIED="1574321104324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypy$__1_.coverage" NAME="可变参数 (1) Coverage Results" MODIFIED="1574391646664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章函数用法和底层分析/参数的传递及类型" />
+    <SUITE FILE_PATH="coverage/mypy$jsondict.coverage" NAME="json和dict互转 Coverage Results" MODIFIED="1576136382831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章 序列/my_dict" />
+    <SUITE FILE_PATH="coverage/mypy$product.coverage" NAME="product Coverage Results" MODIFIED="1574848327841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypy$Unittests_for_test_zhifu_statues_Test_zhifu_status.coverage" NAME="Unittests for test_zhifu_statues.Test_zhifu_status Coverage Results" MODIFIED="1576131683454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习题/pay" />
+    <SUITE FILE_PATH="coverage/mypy$apidemo.coverage" NAME="apidemo Coverage Results" MODIFIED="1575350730426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
+    <SUITE FILE_PATH="coverage/mypy$Unittests_in_testcase1_py.coverage" NAME="Unittests in testcase1.py Coverage Results" MODIFIED="1575367691501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
+    <SUITE FILE_PATH="coverage/mypy$1.coverage" NAME="1 Coverage Results" MODIFIED="1575340074822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_requests" />
+    <SUITE FILE_PATH="coverage/mypy$.coverage" NAME="继承 Coverage Results" MODIFIED="1574848776964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/mypy$utils.coverage" NAME="utils Coverage Results" MODIFIED="1574849167755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypy$4.coverage" NAME="异常4 Coverage Results" MODIFIED="1574746920733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章 异常" />
   </component>
 </project>
