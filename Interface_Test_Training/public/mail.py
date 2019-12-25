@@ -1,3 +1,3 @@
-mail_user = 'pod1019@163.com'
-mail_pass = 'jxst1983210.'
-sender = 'pod1019@163.com'
+mail_user = 'jerry0914@126.com'
+mail_pass = 'fjj123456'
+sender = 'jerry0914@126.com'

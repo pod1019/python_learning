@@ -6,7 +6,6 @@ from public import HttpService
 class GetParamsHeadersTest(unittest.TestCase):
     '''Get有params和headers测试'''
     def setUp(self):
-        host = Config.url()
         endpoint = 'get'
         self.url = base.get_url(endpoint)
 
@@ -24,8 +23,8 @@ class GetParamsHeadersTest(unittest.TestCase):
         DataAll = {'params':params,'headers':headers}   #由于每个测试用例要传递的参数数量不一样，所以我们把参数封装成字典的形式
         resp = HttpService.MyHTTP().get(self.url,**DataAll)
 
-        User_Agent = resp['headers']['User-Agent']
-        self.assertIn('Mozilla',User_Agent)
+        User_Agent = resp['headers']['User-Agent']  #取一个实际结果保存为User_Agent，然后下面用断言进行比较
+        self.assertIn('Mozilla',User_Agent) # Mozilla预期结果，User_Agent实际结果
 
     def tearDown(self):
         pass

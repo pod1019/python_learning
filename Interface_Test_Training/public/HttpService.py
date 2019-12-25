@@ -17,8 +17,8 @@ class MyHTTP(object):
             text = resp.json()
             return text
         except Exception as e:
-            print("Get错误:".format(e))
-
+            # print("Get错误:".format(e))
+            print('get错误:s%'%e)
     def post(self,url,**DataAll):
         # 可以定义多个关键字参数
         params = DataAll.get("params")

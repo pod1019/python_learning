@@ -8,7 +8,6 @@ from public import base
 class GetNothingTest(unittest.TestCase):
     '''GET无参数测试'''
     def setUp(self):
-        host = Config.url()
         endpoint = 'get'
         self.url = base.get_url(endpoint)
 

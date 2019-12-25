@@ -12,7 +12,6 @@ class PostDataTest(unittest.TestCase):
     '''Post Data测试'''
 #     主要是环境配置:进行测试前的初始化工作,比如在接口测试前面的一些前置的参数赋值,数据库操作等4
     def setUp(self):
-        host = Config.url()
         endpoint = 'get'
         self.url = base.get_url(endpoint)
 
