@@ -1,6 +1,5 @@
 import unittest
 from public import base
-from public import HttpService
 
 class GetParams(unittest.TestCase):
     '''GetParams测试''' # 产生的测试报告里的概要信息，就是此注释的内容
@@ -13,8 +12,9 @@ class GetParams(unittest.TestCase):
         params = {'show_env':1}
         '''给服务器发送请求'''
         # resp = HttpService.MyHTTP().get(self.url,params)
-        DataAll = {'params':params} #由于每个测试用例要传递的参数数量不一样，所以我们把参数封装成字典的形式
-        resp = HttpService.MyHTTP().get(self.url,**DataAll)
+        DataALL = {'params':params} #由于每个测试用例要传递的参数数量不一样，所以我们把参数封装成字典的形式
+        Method = 'get'
+        resp = base.get_response(self.url,Method,**DataALL)
 
         connecthost = resp.get('headers').get('Host')
         self.assertEqual(connecthost,"httpbin.org")
@@ -23,8 +23,10 @@ class GetParams(unittest.TestCase):
         '''test_get_params测试'''
         params = {'show_env':1}
         '''给服务器发送请求'''
-        DataAll = {'params': params}  # 由于每个测试用例要传递的参数数量不一样，所以我们把参数封装成字典的形式
-        resp = HttpService.MyHTTP().get(self.url, **DataAll)
+        DataALL = {'params':params} #由于每个测试用例要传递的参数数量不一样，所以我们把参数封装成字典的形式
+
+        Method = 'get'
+        resp = base.get_response(self.url, Method, **DataALL)
 
         connecthost = resp.get('headers').get('Host')
         self.assertIsInstance(connecthost,str) # 判断取得的结果的类型是不是str类型
