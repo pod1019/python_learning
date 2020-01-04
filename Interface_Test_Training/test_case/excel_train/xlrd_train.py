@@ -86,3 +86,4 @@ print('----布尔----')
 print('当前单元格的值是：',table1.cell_value(0,8)) # 布尔 4
 print('当前单元格的值的类型是：',table1.cell_type(0,8))
 print(read_excel(table1,0,8))
+print('s')

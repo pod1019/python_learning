@@ -4,3 +4,12 @@
 def url():
     url = 'http://httpbin.org/'
     return url
+
+# 数据库连接串
+sql_conn_dict ={
+    'host':'localhost',
+    'user':'root',
+    'passwd':'root',
+    'db':'test',
+    'charset':'utf8'
+}
