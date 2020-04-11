@@ -7,7 +7,7 @@ list1 = [1,2,3]
 list2 = ['a','b','c','d','f']
 list3 =[]
 x=0
-list2 = iter(list2)
+list2 = iter(list2 )
 while True:
     if x == len(list1):
         x = 0
