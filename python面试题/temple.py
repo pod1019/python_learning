@@ -6,7 +6,7 @@ def zhifu():
     '''
     pass
 
-def zhifu_statues():
+def zhifu_status():
     '''根据支付的结果 success or fail，判断跳转到对应页面'''
     result = zhifu()
     print(result)

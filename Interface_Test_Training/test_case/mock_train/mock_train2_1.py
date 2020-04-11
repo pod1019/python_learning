@@ -8,18 +8,21 @@ import modular
 '''一、mock一个函数'''
 class TestCount1(unittest.TestCase):
 
-    @mock.patch('modular.add_def') #1
+    @mock.patch('modular.add_def') #1 模块modular必须要写上，不能通过from ... import * 这种形式导入，容易出问题
     def test_add(self,mock_add_def): #2 加mock_add_def作为参数
-        mock_add_def.return_value = 1 #3mock_train2.py
+        mock_add_def.return_value = 1 #3 mock_train2.py
+        mock_add_def.side_effect = modular.add_def2
         result = modular.add_def(8,5)
         print('---',result)
         self.assertEqual(result,13)
-        mock_add_def.side_effect = modular.add_def2
+
 
 '''二、mock对象里的一个方法'''
+
 class TestCount2(unittest.TestCase):
 
-    @mock.patch.object(modular.Count,'add') # 1mock.patch.object,带object的才是对应类的；注意和上面的patch的区别
+    # 1mock.patch.object,带object的才是对应类的（传递两个参数，前面是类的名称，后面是类里的方法）；注意和上面的patch的区别
+    @mock.patch.object(modular.Count,'add')
     def test_add(self,mock_add): #2 加 mock_add作为参数
         count = modular.Count()
         mock_add.return_value = 2 #3
@@ -39,7 +42,7 @@ class TestCount3(unittest.TestCase):
         mock_add.return_value = 13
         result1 = count.add(8,5)
         result2 = modular.add_def(8,5)
-        print(result1,result2)
+        print("result1的结果是：{0} \nresult2的结果是：{1}".format(result1,result2))
         self.assertEqual(result1,13)
         self.assertEqual(result2,13)
 

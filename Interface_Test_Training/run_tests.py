@@ -64,13 +64,14 @@ if __name__ =="__main__":
     filename = './report/' + now + '_result.html' #生成文件名，赋给filename
     fp = open(filename,'wb') # 以写的方式打开filename
 
-    #stream放生成报告的路径
+    #stream存放 生成报告的路径
     runner = HTMLTestRunner(stream=fp,
                             title='测试报告',
                             description='用例执行情况：')
     runner.run(discover) #调用HTMLTestReport文件下的run方法
     fp.close()
 
+    # 取出报告，发送邮件
     test_report = './report'
     rep = report(test_report)
     send_email(rep)

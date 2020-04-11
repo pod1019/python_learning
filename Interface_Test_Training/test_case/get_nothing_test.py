@@ -1,5 +1,4 @@
 import unittest
-import requests
 from public import base
 from ddt import ddt,data,unpack #ddt模块常用的3个方法
 
@@ -7,6 +6,7 @@ testcasefile = 'get_nothing_test_data.xlsx'
 AllData = base.get_data(testcasefile,'AllData') # 获取测试用例文件 testcasefile，并进一步取到该文件的sheet名，即AllData
 TestData = base.get_data(testcasefile,'TestData')[1:] # 获取测试用例文件 testcasefile，并进一步取到该文件的sheet名，即T
 print(TestData)
+
 @ddt
 class GetNothingTest(unittest.TestCase):
     '''GET无参数测试'''
@@ -23,6 +23,7 @@ class GetNothingTest(unittest.TestCase):
         '''校验header里host的值'''
         Method = self.RequestMethod
         resp = base.get_response(self.url, Method)
+        print(TestData)
         # connectHost = resp['headers']['host']
         connectHost = resp[headers][key]
         self.assertEqual(connectHost,result)
